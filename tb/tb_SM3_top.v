@@ -5,7 +5,7 @@
  * Author: Chen Rui (raymond.rui.chen@qq.com>)
  * -----
  * Last Modified: Sunday, 5th August 2018 9:13:44 am
- * Modified By: Chen Rui (raymond.rui.chen@qq.com>)
+ * Modified By: Zhang Mingfei (g13954716636@gmail.com)
  * -----
  * Copyright (c) 2018 - Chen Rui
  * All rights reserved.
@@ -77,7 +77,7 @@ always@(*)
 			$display("\n");
 			$display("\n");		
 			$display("     +--------------------------------------------------------------------------------------------+" );
-			$display("     |  HASH of input message is %64h|!", sm3_result_out);
+			$display("     |  HASH of input message is %64h!|", sm3_result_out);
 			$display("     +--------------------------------------------------------------------------------------------+" );
 			if(sm3_result_out == 256'hdebe9ff9_2275b8a1_38604889_c18e5a4d_6fdb70e5_387e5765_293dcba3_9c0c5732)
 				begin
